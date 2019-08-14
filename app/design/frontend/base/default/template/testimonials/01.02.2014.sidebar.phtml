@@ -1,0 +1,55 @@
+<?php $enab=$this->getTestimonialsEnabled(); 
+if($enab==1) { ?>
+
+
+<style>
+#testimonials {
+/*width:163px;
+background:#E7E9E6 url(images/bg-testimonials.png) left top repeat-x;
+border:1px solid #D8D9D6;
+margin:10px 0;*/
+height:170px; 
+}
+#testimonials blockquote{
+padding:10px;
+width:600px !important;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#808080;
+display:block;
+}
+ 
+#testimonials blockquote p{
+margin: 0 !important;padding: 5px!important;
+float:right;
+width:195px;
+ 
+}
+#testimonials blockquote cite {
+font-style: normal;
+display: block;
+ 
+text-transform: uppercase;
+font-weight: bold;
+font-style:italic;
+color: #555;
+padding-left:5px;
+margin-top:10px;
+}
+</style>
+
+<?php $connection = Mage::getSingleton('core/resource')->getConnection('core_write'); ?>
+<?php $result = $connection->query("select * from manv_testimonials order by id desc limit 1"); ?>
+<div class="eye-test_con">
+<span><img src="<?php echo $this->getSkinUrl('images') ?>/test_1.png" width="23" height="17" /></span>
+<?php while ($row = $result->fetch()) { ?>
+    <p><?php echo $row['message']; ?></p>
+<?php  } ?>
+<a href="<?php echo $this->getUrl('testimonial'); ?>">Read all independent Trust Reviews  >> </a>
+</div>
+
+
+<?php } else {
+echo "For enable testimonials go to admin->system->configuration->manv testimonials->setting->enable->yes";
+}
+?>
