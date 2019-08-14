@@ -1,51 +1,18 @@
 <?xml version="1.0"?>
 <package>
     <name>manv_testimonial</name>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <stability>stable</stability>
     <license>OSL</license>
     <channel>community</channel>
     <extends/>
-    <summary>Testimonial  extension in magento  shows faces, name and messages respectively </summary>
-    <description>Testimonials  slider extension are good to build trust with new visitors who are not 100% confident of your store and services. &#xD;
-&lt;br /&gt;&lt;br /&gt;&#xD;
-Testimonials are a kind of an extra security feature that makes people click &#x2018;Buy&#x2019; button at your store.&#xD;
-&#xD;
-&lt;br /&gt;&lt;br /&gt;&#xD;
-&#xD;
-The testimonials are submitted using a special form. They are stored and viewable through the admin interface. There is a word count limit to provide proper testimonials display in the sidebar&#xD;
-&#xD;
-&lt;br /&gt;&#xD;
-&#xD;
-Testimonial slider extension in magento with multiple effects that shows face, name and their respective messages. Its have a option to show it in left part of middle part of any cms page. There are very easy to customize the size and other option via backend-configuration.&#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-&#xD;
-&lt;h3&gt;How to Use&lt;/h3&gt;&#xD;
-To show this slider on home page or any othe location on your nagento Site, you have to put this line of code in homepage cms in admin or in static block to to call any where in the site: &#xD;
-&lt;br /&gt;&#xD;
-&lt;b&gt;&#xD;
-&lt;br /&gt;&#xD;
-Content &#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-{{block type="testimonials/index" name="testimonials_index" template="testimonials/index.phtml"}}&#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-&#xD;
-Sidebar &#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-{{block type="testimonials/index" name="testimonials_index" template="testimonials/sidebar.phtml"}}&lt;/b&gt;&#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-&lt;br /&gt;&#xD;
-</description>
-    <notes>Tesimonials</notes>
+    <summary>Testimonials extension in magento shows faces name and messages Testimonials With Testimonials your store. </summary>
+    <description>Testimonials extension in magento shows faces name and messages Testimonials With Testimonials your store. </description>
+    <notes>Testimonials extension in magento shows faces name and messages Testimonials With Testimonials your store. </notes>
     <authors><author><name>Manvendra Sharma</name><user>sharmamanvendra</user><email>sharmamanvendra6@gmail.com</email></author></authors>
-    <date>2014-02-04</date>
-    <time>08:36:51</time>
-    <contents><target name="magelocal"><dir name="Manv"><dir name="Testimonials"><dir name="Block"><file name="04.12.2013.Index.php" hash="889dc1dd6e018d7460e0b35ae99e1c73"/><file name="04.12.2013.Left.php" hash="b56bdb29b5436c1dafee59ddd6b5bb2b"/><dir name="Adminhtml"><dir name="Testimonials"><dir name="Edit"><file name="Form.php" hash="c524c8681eeee06bcaea2ebcd93dd485"/><dir name="Tab"><file name="Form.php" hash="a0124e247c746e3385c9073442d639a3"/></dir><file name="Tabs.php" hash="ecc6500cd2d445f3832254f78cb1a379"/></dir><file name="Edit.php" hash="ee84e1bb6fe998aa4a6d3780ddc89bb2"/><file name="Grid.php" hash="4291189201b4739fe7536bf6648b3cbb"/></dir><file name="Testimonials.php" hash="e4977164d0eef42652a5dd85b86e3ac4"/><file name="Testimonialsbackend.php" hash="432f13411a70edee445393792ab28135"/></dir><file name="Index.php" hash="40a408ad02d8b7a45548070143d738b7"/><file name="Left.php" hash="0aaafdf3f09469d530aa454a732a5433"/><file name="Testimonials.php" hash="b20e5344ca2864f3cbf165a82ed78d30"/></dir><dir name="Helper"><file name="Data.php" hash="19191ca29e949fbefa09f2513aa26ef0"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Testimonials"><file name="Collection.php" hash="84ee05b34e43baff424aaea1c2206251"/></dir><file name="Testimonials.php" hash="ab97d2716e911952f8114ac458207f9e"/></dir><file name="Style.php" hash="4d516652432a8df62197ae25dcb921af"/><file name="Testimonials.php" hash="51b09f079057b311c87c88454e8822f0"/><file name="Words.php" hash="7635b8c8defc6fb9a01d26aad59732e5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TestimonialsController.php" hash="64176406547e4b3be0f92bae0ab2122e"/><file name="TestimonialsbackendController.php" hash="b609707cc1326513a84c24e378791888"/></dir><file name="IndexController.php" hash="b9359f2432f7e0ae342b9f3f38ad761e"/><file name="TestimonialsController.php" hash="ae9ddeca67896871d42e9fb0f12d6115"/></dir><dir name="etc"><file name="04.02.2014.system.xml" hash="ba7c851b626a64cc4fdb376d395dd607"/><file name="04.12.2013.system.xml" hash="ddb4cec65a5eb6743c9e3e01b1e86b91"/><file name="10.12.2013.system.xml" hash="40d454f4a67ec7b6199735385779dcce"/><file name="adminhtml.xml" hash="d914a85df6f08fd6224b0a118c12c9da"/><file name="config.xml" hash="96df1a0b89863d633e7c59b5bea429d7"/><file name="system.xml" hash="68a80b8620f4aafe8c4534a9c3301fda"/></dir><dir name="sql"><dir name="testimonials_setup"><file name="mysql4-install-0.1.0.php" hash="ad89689611fbb5715f46a25aa134737e"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Manv_Testimonials.xml" hash="36e72b84a1879c80baf7614549bdc642"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="testimonials.xml" hash="264e64c2a6ed88f26b20f413e926a77b"/></dir><dir name="template"><dir name="testimonials"><file name="testimonialsbackend.phtml" hash="13ea583f6474cdce6c0c9b289b652ffe"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="testimonials.xml" hash="c316157fd3c381e6ab6de37694b76edc"/></dir><dir name="template"><dir name="testimonials"><file name="01.02.2014..testimonials.phtml" hash="36c95327cf6f6022512b505afaf7274d"/><file name="01.02.2014.sidebar.phtml" hash="ea2177e06c7927515ccd645313b8a844"/><file name="copy of testimonials.phtml" hash="a4e60b0686fbe38e768e51b81a31b821"/><file name="sidebar.phtml" hash="ab4c31b4c0a2a872518917f9775d9206"/><file name="testimonials.phtml" hash="a05a30ec6c26efbef3beaab39af117b8"/><file name="~~sidebar.phtml" hash="77f3f966009831065afda4dcb5e2cd1f"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2014-07-19</date>
+    <time>12:44:17</time>
+    <contents><target name="magelocal"><dir name="Manv"><dir name="Testimonials"><dir name="Block"><dir name="Adminhtml"><dir name="Testimonials"><dir name="Edit"><file name="Form.php" hash="c524c8681eeee06bcaea2ebcd93dd485"/><dir name="Tab"><file name="Form.php" hash="a0124e247c746e3385c9073442d639a3"/></dir><file name="Tabs.php" hash="ecc6500cd2d445f3832254f78cb1a379"/></dir><file name="Edit.php" hash="ee84e1bb6fe998aa4a6d3780ddc89bb2"/><file name="Grid.php" hash="55d9464e7926ff971cac8f058d9e42a9"/></dir><file name="Testimonials.php" hash="e4977164d0eef42652a5dd85b86e3ac4"/><file name="Testimonialsbackend.php" hash="432f13411a70edee445393792ab28135"/></dir><file name="Index.php" hash="40a408ad02d8b7a45548070143d738b7"/><file name="Left.php" hash="0aaafdf3f09469d530aa454a732a5433"/><file name="Testimonials.php" hash="b20e5344ca2864f3cbf165a82ed78d30"/></dir><dir name="Helper"><file name="Data.php" hash="19191ca29e949fbefa09f2513aa26ef0"/></dir><dir name="Model"><dir name="Mysql4"><dir name="Testimonials"><file name="Collection.php" hash="84ee05b34e43baff424aaea1c2206251"/></dir><file name="Testimonials.php" hash="ab97d2716e911952f8114ac458207f9e"/></dir><file name="Style.php" hash="4d516652432a8df62197ae25dcb921af"/><file name="Testimonials.php" hash="51b09f079057b311c87c88454e8822f0"/><file name="Words.php" hash="7635b8c8defc6fb9a01d26aad59732e5"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="TestimonialsController.php" hash="64176406547e4b3be0f92bae0ab2122e"/><file name="TestimonialsbackendController.php" hash="b609707cc1326513a84c24e378791888"/></dir><file name="IndexController.php" hash="b9359f2432f7e0ae342b9f3f38ad761e"/><file name="TestimonialsController.php" hash="ae9ddeca67896871d42e9fb0f12d6115"/></dir><dir name="etc"><file name="adminhtml.xml" hash="d914a85df6f08fd6224b0a118c12c9da"/><file name="config.xml" hash="96df1a0b89863d633e7c59b5bea429d7"/><file name="system.xml" hash="68a80b8620f4aafe8c4534a9c3301fda"/></dir><dir name="sql"><dir name="testimonials_setup"><file name="mysql4-install-0.1.0.php" hash="ad89689611fbb5715f46a25aa134737e"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="testimonials.xml" hash="02fc28822a5b2bc4b2504988112fad7e"/></dir><dir name="template"><dir name="testimonials"><file name="sidebar.phtml" hash="ab4c31b4c0a2a872518917f9775d9206"/><file name="testimonials.phtml" hash="a05a30ec6c26efbef3beaab39af117b8"/></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="testimonials.xml" hash="264e64c2a6ed88f26b20f413e926a77b"/></dir><dir name="template"><dir name="testimonials"><file name="testimonialsbackend.phtml" hash="13ea583f6474cdce6c0c9b289b652ffe"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Manv_Testimonials.xml" hash="36e72b84a1879c80baf7614549bdc642"/></dir></target><target name="magemedia"><dir name="testimonials"><dir name="testimonials"><file name="8BBQPI.jpg" hash="8ce90597e7a0986f12d51b5d0aa20ed8"/></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
 </package>

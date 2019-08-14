@@ -32,6 +32,14 @@ class Manv_Testimonials_Block_Adminhtml_Testimonials_Grid extends Mage_Adminhtml
 				"header" => Mage::helper("testimonials")->__("name"),
 				"index" => "name",
 				));
+				$this->addColumn("message", array(
+				"header" => Mage::helper("testimonials")->__("message"),
+				"index" => "message",
+				));
+				$this->addColumn("pic", array(
+				"header" => Mage::helper("testimonials")->__("pic"),
+				"index" => "pic",
+				));
 			$this->addExportType('*/*/exportCsv', Mage::helper('sales')->__('CSV')); 
 			$this->addExportType('*/*/exportExcel', Mage::helper('sales')->__('Excel'));
 
