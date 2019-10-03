@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/manv_testimonial",
+    "name": "OpenMageModuleFostering\/manv_testimonial",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Testimonials extension in magento shows faces name and messages Testimonials With Testimonials your store. ",
     "authors": [
-    {
-        "name": "Manvendra Sharma",
-        "email": "sharmamanvendra6@gmail.com"
-    }
-],
+        {
+            "name": "Manvendra Sharma",
+            "email": "sharmamanvendra6@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
